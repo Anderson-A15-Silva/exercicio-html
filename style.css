@@ -55,6 +55,7 @@ figure#legenda {
     justify-content: flex-end;
 }
 
+/* Formatação da Animação */
 #animacao {
     animation-name: footer;
     animation-duration: 3s;
