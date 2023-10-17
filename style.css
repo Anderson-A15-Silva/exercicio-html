@@ -1,10 +1,13 @@
-
 /* Formatação do Fundo da Página */
 body {
     background:#108787ff;
     color:white;
     font-size:10px;
     margin:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Formatação da Posição das Sections e Outros Elementos */
@@ -15,7 +18,7 @@ h1 {
 /* Principal Formatação da Sections */
 .section {
     margin:4px 1px 4px 1px;
-    font-size: 1rem;
+    font-size: 16px;
     background:white;
     color:black;
     position: relative;
@@ -27,7 +30,7 @@ h1 {
     padding-left:4px;
     padding-bottom:10px;
     box-sizing:border-box;
-    width:35%;
+    width:560px;
 }
 
 /* Formatação da Borda da Imagem */
@@ -43,7 +46,53 @@ figure#legenda {
 
 /* Formatação da Tabela */
 #table {
-    font-size:0.9rem;
-    position:relative;
-    margin: 1rem 1rem;
+    font-size:15px;
+    position: relative;
+    margin: 20px 20px;
 }
+
+.contato {
+    justify-content: flex-end;
+}
+
+#animacao {
+    animation-name: footer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+
+@keyframes footer {
+    25% {
+        position:absolute;
+        color: black;
+        left:25%;
+    }
+    
+    50% {
+        position:absolute;
+        color: yellow;
+        left:75%;
+    }
+}
+
+/* from... to or % */
+
+.container {
+    display:grid;
+    grid-template-columns: 200px 200px;
+}
+
+form {
+    display: block;
+    position: relative;
+}
+footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        background: rgb(0, 229, 255);
+    }
+}
+
