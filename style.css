@@ -75,8 +75,6 @@ figure#legenda {
     }
 }
 
-/* from... to or % */
-
 .container {
     display:grid;
     grid-template-columns: 200px 200px;
