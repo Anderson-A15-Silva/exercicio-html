@@ -19,7 +19,7 @@ h1 {
 .section {
     margin:4px 1px 4px 1px;
     font-size: 16px;
-    background:white;
+    background-color: white;
     color:black;
     position: relative;
     font-family: 'Arsenal', sans-serif;
@@ -87,6 +87,53 @@ form {
 }
 footer {
     text-align: center;
+}
+
+#escuro {
+    display: block;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border: 1px solid black;
+    border-left: 0px;
+    border-radius: 4px;
+    position: fixed;
+    padding-bottom: 2px;
+    padding-left: 48px;
+    top: 0px;
+    right: 0px;
+    opacity: 40%;
+    transition: 1.2s opacity;
+}
+
+button#escuro:hover {
+    opacity: 100%;
+    padding-left: 55px;
+}
+
+#claro {
+    display: block;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: fixed;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    top: 20px;
+    right: 0px;
+    opacity: 40%;
+    transition: 1.2s opacity;
+}
+
+button#claro:hover {
+    opacity: 100%;
+    padding-left: 5px;
+}
+
+.icone {
+    left: 0px;
+    width: 12;
+    height: 12px;
 }
 
 @media screen and (min-width: 1800px) {

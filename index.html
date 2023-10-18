@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim</title>
     <link rel="stylesheet" href="style.css"/>
-    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <header>
         <!-- Cabeçalho: Nome e Imagem -->
         <h1> Anderson Andrades da Silva </h1>
         <figure class="foto-legenda">
-            <img id="foto" src="foto-anderson-as.png" width="200px">
+            <img src="foto-anderson-as.png" id="foto" width="200px">
             <figcaption id="legenda">
                 <p> Foto de Perfil do GitHub</p>
             </figcaption>
         </figure>
+
+        <button id="escuro"> <img src="lua.png" class="icone"> Modo Escuro </button>
+        <button id="claro"> <img src="sol.png" class="icone"> Modo Claro (Padrão) </button>
     </header>
     <main>
         <section class="section">
@@ -77,5 +79,6 @@
     <footer>
         <p id="animacao"> &copy; Made by Anderson__AS </p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
