@@ -90,7 +90,6 @@ footer {
 }
 
 #escuro {
-    display: block;
     color: white;
     background-color: rgb(24, 23, 23);
     border: 1px solid black;
@@ -105,13 +104,12 @@ footer {
     transition: 1.2s opacity;
 }
 
-button#escuro:hover {
+button#escuro:hover #escuro {
     opacity: 100%;
     padding-left: 55px;
 }
 
-#claro {
-    display: block;
+.mode {
     color: black;
     background-color: white;
     border: 1px solid black;
@@ -125,9 +123,9 @@ button#escuro:hover {
     transition: 1.2s opacity;
 }
 
-button#claro:hover {
+button#claro:hover #claro {
     opacity: 100%;
-    padding-left: 5px;
+    padding-left: 55px;
 }
 
 .icone {
