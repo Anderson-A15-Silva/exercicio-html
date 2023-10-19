@@ -17,19 +17,19 @@ h1 {
 
 /* Principal Formatação da Sections */
 .section {
-    margin:4px 1px 4px 1px;
+    margin: 4px 1px 4px 1px;
     font-size: 16px;
-    background-color: white;
-    color:black;
+    background: white;
+    color: black;
     font-family: 'Arsenal', sans-serif;
     box-shadow: 2px 2px 6px black;
-    border-radius:5px;
-    border-width:15px;
-    border-color:black;
-    padding-left:4px;
-    padding-bottom:10px;
-    box-sizing:border-box;
-    width:560px;
+    border-radius: 15px;
+    border-width: 15px;
+    border-color: black;
+    padding-left: 4px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 560px;
 }
 
 /* Formatação da Borda da Imagem */
@@ -96,31 +96,17 @@ footer {
     border-radius: 4px;
     position: fixed;
     padding-bottom: 2px;
-    padding-left: 2px;
+    padding-left: 6px;
     top: 20px;
     right: 0px;
     opacity: 40%;
     transition: 1.2s opacity;
 }
 
-#claro {
-    background: white;
-    color: black;
-    top: 20px;
-    right: 0px;
-}
-
-#escuro {
+.dk {
+    padding-left: 48px;
     background: black;
     color: white;
-    padding-left: 47px;
-    top: 0px;
-    right: 0px;
-}
-
-.mode:hover .mode {
-    opacity: 100%;
-    padding-left: 50px;
 }
 
 .icone {
