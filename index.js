@@ -19,15 +19,20 @@ darkMode.addEventListener("click", () => {
     sectionTwo.classList.toggle("section");
     classDark.classList.toggle("mode");
 
+    darkMode.style.display = "none"
+    whiteMode.style.display = "block"
 });
 
 whiteMode.addEventListener("click", () => {
     body.style.background = "#108787ff";
     body.style.color = "white";
 
-    sectionOne.style.background = "white"
-    sectionTwo.style.background = "white"
+    sectionOne.style.background = "white";
+    sectionTwo.style.background = "white";
     classWhite.classList.toggle("mode");
+
+    whiteMode.style.display = "none";
+    darkMode.style.display = "block";
 });
 
 
