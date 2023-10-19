@@ -16,7 +16,7 @@ classWhite.classList.toggle("wt");
 
 darkMode.addEventListener("click", () => {
     body.style.background = "black";
-    body.style.color = "white";
+    body.style.color = "gray";
 
     sectionO.style.background = "#3b3a3a";
     sectionT.style.background = "#3b3a3a";
@@ -28,7 +28,7 @@ darkMode.addEventListener("click", () => {
 
 whiteMode.addEventListener("click", () => {
     body.style.background = "#108787ff";
-    body.style.color = "black";
+    body.style.color = "white";
 
     sectionO.style.background = "white";
     sectionT.style.background = "white";
