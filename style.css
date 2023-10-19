@@ -1,6 +1,6 @@
 /* Formatação do Fundo da Página */
 body {
-    background:#108787ff;
+    background: #00e5ff;
     color:white;
     font-size:10px;
     margin:3px;
@@ -75,19 +75,23 @@ figure#legenda {
     }
 }
 
+/* Rascunho de Formatação de Elementos usando o Grid
 .container {
     display:grid;
     grid-template-columns: 200px 200px;
 }
-
 form {
     display: block;
     position: relative;
 }
+*/
+
+/* Formatação do Rodapé */
 footer {
     text-align: center;
 }
 
+/* Formatação dos Botões */
 #div {
     display: block;
     color: black;
@@ -103,12 +107,16 @@ footer {
     transition: 1.2s opacity;
 }
 
+
+/* Formatação de Botão Dark Mode*/
 .dk {
     padding-left: 48px;
     background: black;
     color: white;
 }
 
+
+/* Formatação do Ícone (Botões) */
 .icone {
     position: relative;
     right: 10px;
@@ -116,9 +124,9 @@ footer {
     height: 12px;
 }
 
-@media screen and (min-width: 1800px) {
+/* Responsividade */
+@media screen and (min-width: 600px) {
     body {
-        background: rgb(0, 229, 255);
+        background:#108787ff;
     }
 }
-
