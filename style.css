@@ -89,26 +89,6 @@ footer {
     text-align: center;
 }
 
-#escuro {
-    color: white;
-    background-color: rgb(24, 23, 23);
-    border: 1px solid black;
-    border-left: 0px;
-    border-radius: 4px;
-    position: fixed;
-    padding-bottom: 2px;
-    padding-left: 48px;
-    top: 0px;
-    right: 0px;
-    opacity: 40%;
-    transition: 1.2s opacity;
-}
-
-button#escuro:hover #escuro {
-    opacity: 100%;
-    padding-left: 55px;
-}
-
 .mode {
     color: black;
     background-color: white;
@@ -123,9 +103,22 @@ button#escuro:hover #escuro {
     transition: 1.2s opacity;
 }
 
-button#claro:hover #claro {
+#escuro {
+    background: black;
+    color: white;
+    padding-left: 47px;
+    top: 0px;
+    right: 0px;
+}
+
+#escuro:hover #escuro {
     opacity: 100%;
     padding-left: 55px;
+}
+
+.mode:hover .mode {
+    opacity: 100%;
+    padding-left: 50px;
 }
 
 .icone {

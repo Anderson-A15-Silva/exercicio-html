@@ -9,12 +9,16 @@ var classDark = window.document.getElementById("escuro");
 var classWhite = window.document.getElementById("claro");
 
 darkMode.addEventListener("click", () => {
-    body.style.background = "#073939";
+    body.style.background = "black";
     body.style.color = "white";
 
-    sectionOne.style.background = "8d8d8d"
-    sectionTwo.style.background = "8d8d8d"
+    sectionOne.style.background = "#3b3a3a";
+    sectionTwo.style.background = "#3b3a3a";
+
+    sectionOne.classList.toggle("section");
+    sectionTwo.classList.toggle("section");
     classDark.classList.toggle("mode");
+
 });
 
 whiteMode.addEventListener("click", () => {
