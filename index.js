@@ -22,7 +22,7 @@ var horario = new Date();
 var horas = horario.getHours();
 
 // Realizando a Verificação e Mundando a Página Conforme as Condições
-if (horas >= 12 && horas <= 18) {
+if (horas >= 6 && horas <= 22) {
     body.style.background = "#108787ff";
     body.style.color = "white";
 
