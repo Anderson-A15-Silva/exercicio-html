@@ -60,7 +60,6 @@ figure#legenda {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     }
-
 @keyframes footer {
     25% {
         position:absolute;
@@ -109,11 +108,12 @@ footer {
     transition: 1.2s opacity;
 }
 
-
+/* Formatação do Botão de Modo Claro */
 #claro {
     display: none;
 }
 
+/* Formatação de Fundo dos Botões */
 #div:hover {
     opacity: 100%;
     background: blue;
