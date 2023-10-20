@@ -99,8 +99,10 @@ footer {
     border: 1px solid black;
     border-radius: 4px;
     position: fixed;
+    padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 6px;
+    padding-right: 3px;
     top: 20px;
     right: 0px;
     opacity: 40%;
@@ -108,9 +110,18 @@ footer {
 }
 
 
+#claro {
+    display: none;
+}
+
+#div:hover {
+    opacity: 100%;
+    background: blue;
+}
+
 /* Formatação de Botão Dark Mode*/
 .dk {
-    padding-left: 48px;
+    padding-left: 55px;
     background: black;
     color: white;
 }
@@ -119,7 +130,7 @@ footer {
 /* Formatação do Ícone (Botões) */
 .icone {
     position: relative;
-    right: 10px;
+    right: 0px;
     width: 12px;
     height: 12px;
 }
