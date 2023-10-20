@@ -50,6 +50,7 @@ figure#legenda {
     margin: 20px 20px;
 }
 
+/* Formatação do Conteúdo do Formulário */
 .contato {
     justify-content: flex-end;
 }
@@ -117,6 +118,7 @@ footer {
 #div:hover {
     opacity: 100%;
     background: blue;
+    padding: 6px;
 }
 
 /* Formatação de Botão Dark Mode*/
